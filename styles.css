@@ -1,0 +1,71 @@
+/* TRANSFORMATIONS */
+
+
+
+
+/* BASE STYLES
+------------------------------------- */
+body {
+    margin: 0;
+    padding: 0.5em;
+    background-color: forestgreen;
+    color: black;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+
+/* NAVIGATION
+------------------------------------- */
+nav {
+
+}
+
+nav a {
+
+}
+
+nav a:hover {
+
+}
+
+
+
+
+
+/* HOME PAGE
+------------------------------------- */
+main {
+    
+}
+
+
+
+
+
+/* GALLERY PAGE
+------------------------------------- */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5em;
+    max-width: 50em;
+    margin: 5em auto;
+}
+
+.gallery-item {
+    padding: 0.5em;
+    border: 1px solid black;
+    display: grid;
+    align-items: end;
+    background: white;
+}
+
+
+
